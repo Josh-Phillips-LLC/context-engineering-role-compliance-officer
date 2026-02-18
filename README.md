@@ -48,6 +48,22 @@ Regenerate this repository from `Context-Engineering` using:
   --output-dir <path-to-role-repo>
 ```
 
+## WIP Housekeeping
+
+Temporary PR review artifacts in `WIP/` can be cleaned after PRs are merged.
+
+Dry run (preview only):
+
+```bash
+./scripts/cleanup-wip-review-artifacts.sh
+```
+
+Apply cleanup (delete matching files):
+
+```bash
+./scripts/cleanup-wip-review-artifacts.sh --apply
+```
+
 ## Generation Metadata
 
 - Source ref: `3b279ad`
