@@ -50,5 +50,5 @@ Regenerate this repository from `Context-Engineering` using:
 
 ## Generation Metadata
 
-- Source ref: `75c24b6`
-- Generated at (UTC): `2026-02-17T06:57:50Z`
+- Source ref: `df9d350`
+- Generated at (UTC): `2026-02-18T06:02:40Z`
