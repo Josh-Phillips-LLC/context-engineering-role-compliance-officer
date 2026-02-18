@@ -16,11 +16,21 @@ These files are generated artifacts and should not be manually edited:
 - `AGENTS.md`
 - `.github/copilot-instructions.md`
 - `.vscode/settings.json`
+- `handbook/README.md`
+- `handbook/sops/README.md`
+- `handbook/runbooks/README.md`
+- `handbook/templates/README.md`
+- `handbook/references/README.md`
 
 Instruction model:
 
 - `AGENTS.md` is the canonical compiled role instruction set.
 - `.github/copilot-instructions.md` is an adapter that points to `AGENTS.md`.
+
+## Agent Handbook
+
+The `handbook/` folder contains role-specific SOPs, runbooks, templates, and references required for daily work.
+Agents should be able to operate using only this repo plus the handbook contents.
 
 ## Source of Truth
 
@@ -50,5 +60,5 @@ Regenerate this repository from `Context-Engineering` using:
 
 ## Generation Metadata
 
-- Source ref: `b3f5597`
-- Generated at (UTC): `2026-02-18T11:54:37Z`
+- Source ref: `ebdcb63`
+- Generated at (UTC): `2026-02-18T12:42:05Z`
