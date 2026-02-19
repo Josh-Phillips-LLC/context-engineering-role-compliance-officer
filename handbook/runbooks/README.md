@@ -10,3 +10,6 @@ Each runbook should include:
 - Post-incident follow-up
 
 General runbooks should be prefixed with `general-`.
+
+Role-specific runbooks in this repo:
+- `compliance-pr-review-wrapper.md`
