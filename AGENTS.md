@@ -58,6 +58,7 @@ Job-Description-Spec-Version: 1
 - Use labels `efficiency-opportunity` and `agent-feedback`; if an equivalent open issue exists, link it and append new evidence instead of duplicating.
 - Run the full PR review protocol for each review cycle.
 - Classify findings as blocker, follow-up, or note consistent with governance triage.
+- Use `scripts/co-pr-review.sh` as the default path for submitting Compliance Officer PR reviews so review events are app-attributed and post-submit verified; treat raw `gh pr review` usage as break-glass and include rationale.
 
 ## Escalation Triggers
 
