@@ -22,6 +22,8 @@ These files are generated artifacts and should not be manually edited:
 - `handbook/templates/README.md`
 - `handbook/references/README.md`
 
+Some roles include additional managed role-specific files generated from templates.
+
 Instruction model:
 
 - `AGENTS.md` is the canonical compiled role instruction set.
@@ -60,5 +62,5 @@ Regenerate this repository from `Context-Engineering` using:
 
 ## Generation Metadata
 
-- Source ref: `fd4d4ab`
-- Generated at (UTC): `2026-02-19T11:13:36Z`
+- Source ref: `20d501d`
+- Generated at (UTC): `2026-02-25T14:55:25Z`
