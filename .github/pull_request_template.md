@@ -6,9 +6,9 @@
 - Closes #
 
 # Machine-Readable Metadata (Required)
-Primary-Role:
-Reviewed-By-Role:
-Executive-Sponsor-Approval:
+Primary-Role: Implementation Specialist
+Reviewed-By-Role: Compliance Officer
+Executive-Sponsor-Approval: Not-Required
 
 # Role Attribution
 - [ ] At least one `role:*` label applied
