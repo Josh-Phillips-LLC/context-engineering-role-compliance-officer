@@ -2,7 +2,7 @@
 
 Role-specific agent workspace for **Compliance Officer**.
 
-This repository is generated from templates and role definitions in `Context-Engineering`.
+This repository is generated from templates and role definitions in `context-engineering-implementation`.
 
 ## Purpose
 
@@ -43,14 +43,15 @@ Agents should be able to operate using only this repo plus the handbook contents
 
 ## Source of Truth
 
-Canonical role definitions and governance live in `Context-Engineering`:
+Canonical role definitions live in `context-engineering-implementation`:
 
 - `10-templates/job-description-spec/global.json`
 - `10-templates/job-description-spec/roles/compliance-officer.json`
 - `10-templates/agent-instructions/base.md`
 - `10-templates/agent-instructions/roles/compliance-officer.md`
 - `00-os/role-charters/compliance-officer.md`
-- `governance.md`
+
+Governance policy authority is `context-engineering-governance/governance.md` and is consumed by implementation via `contracts/upstream/governance.md`.
 
 For `compliance-officer`, generated instructions also embed:
 
@@ -58,7 +59,7 @@ For `compliance-officer`, generated instructions also embed:
 
 ## Regeneration
 
-Regenerate this repository from `Context-Engineering` using:
+Regenerate this repository from `context-engineering-implementation` using:
 
 ```bash
 10-templates/repo-starters/role-repo-template/scripts/render-role-repo-template.sh \
@@ -69,5 +70,5 @@ Regenerate this repository from `Context-Engineering` using:
 
 ## Generation Metadata
 
-- Source ref: `d1608af`
-- Generated at (UTC): `2026-02-27T07:27:50Z`
+- Source ref: `50d1d9b`
+- Generated at (UTC): `2026-02-27T10:42:41Z`
